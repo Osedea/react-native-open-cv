@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'ios/Frameworks/opencv2.framework'
 
   s.dependency "React"
-  s.dependency "OpenCV2"
+  s.dependency "OpenCV"
 end
 

@@ -1,5 +1,8 @@
 #import "OSDOpenCv.h"
 
+#import <opencv2/highgui/highgui_c.h>
+#import <opencv2/imgcodecs/ios.h>
+
 @implementation OSDOpenCv
 
 RCT_EXPORT_MODULE()
