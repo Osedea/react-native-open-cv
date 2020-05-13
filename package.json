@@ -1,8 +1,8 @@
 {
   "name": "react-native-open-cv",
-  "title": "React Native Open Cv",
+  "title": "React Native OpenCV",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "Installs the native dependencies for OpenCV for use in React Native Android and iOS packages.",
   "main": "index.js",
   "files": [
     "README.md",
@@ -12,21 +12,23 @@
     "react-native-open-cv.podspec"
   ],
   "scripts": {
+    "postinstall": "./postinstall.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-open-cv.git",
-    "baseUrl": "https://github.com/github_account/react-native-open-cv"
+    "url": "git+https://github.com/Osedea/react-native-open-cv.git",
+    "baseUrl": "https://github.com/Osedea/react-native-open-cv"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "OpenCV"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "James Morton",
+    "email": "james.morton@osedea.com"
   },
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
